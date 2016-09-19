@@ -11,6 +11,7 @@ public class CommunicationBetweenProcess {
 	public static void main(String[] args) throws IOException {
 		
 		if (args.length <= 0) {
+			'se muestra error'
 			System.err.println("Se necesita un programa a ejecutar");
 			System.exit(-1);
 		}
